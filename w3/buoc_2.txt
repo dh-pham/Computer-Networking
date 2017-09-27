@@ -1,0 +1,16 @@
+Bước 2:
+Lỗi Connection refused vì:
+tiến trình thực thi bởi daytimecpcli là tiến trình phía client, muốn kết nối thành công với server thì cần có một tiến trình lắng nghe bên phía server.
+=> Kết nối không thành công.
+
+Bước 3:
+dịch: 
+make byteorder
+thực thi:
+./byteorder
+kết quả:
+x86_64-unknown-linux-gnu: little-endian
+
+=> Kiến trúc 64-bit, lưu trữ dữ liệu dạng đầu nhỏ.
+
+

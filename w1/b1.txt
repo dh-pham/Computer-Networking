@@ -1,0 +1,21 @@
+Câu 1:
+* Lệnh cấu hình mạng cho các máy trong cùng 1 mạng:
+  Máy A: 
+	sudo ifconfig wlo1 192.168.0.155
+	sudo ifconfig wlo1 netmask 255.255.255.0
+	sudo ifconfig wlo1 down
+	sudo ifconfig wlo1 up
+  Máy B:
+	sudo ifconfig wlo1 192.168.0.156
+	sudo ifconfig wlo1 netmask 255.255.255.0
+	sudo ifconfig wlo1 down
+	sudo ifconfig wlo1 up
+  Máy C:
+	sudo ifconfig wlo1 192.168.0.157
+	sudo ifconfig wlo1 netmask 255.255.255.0
+	sudo ifconfig wlo1 down
+	sudo ifconfig wlo1 up
+
+* Để kiểm tra kết nối giữa các máy, dùng lệnh ping.
+vd: từ console máy A, kiểm tra kết nối với máy B:
+    $ ping 192.168.0.156

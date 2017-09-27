@@ -1,0 +1,8 @@
+dịch: 
+make byteorder
+thực thi:
+./byteorder
+kết quả:
+x86_64-unknown-linux-gnu: little-endian
+
+=> Kiến trúc 64-bit, lưu trữ dữ liệu dạng đầu nhỏ.
